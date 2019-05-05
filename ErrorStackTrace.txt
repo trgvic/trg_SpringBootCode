@@ -1,0 +1,61 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.4.RELEASE)
+
+2019-05-05 09:24:33.770  INFO 5380 --- [  restartedMain] c.a.app.ws.MobileAppWsApplication        : Starting MobileAppWsApplication on DESKTOP-S8HI8R1 with PID 5380 (C:\Users\Tribhuban\Documents\workspace-spring-tool-suite-4-4.1.0.RELEASE\mobile-app-ws\target\classes started by Tribhuban in C:\Users\Tribhuban\Documents\workspace-spring-tool-suite-4-4.1.0.RELEASE\mobile-app-ws)
+2019-05-05 09:24:33.772  INFO 5380 --- [  restartedMain] c.a.app.ws.MobileAppWsApplication        : No active profile set, falling back to default profiles: default
+2019-05-05 09:24:33.844  INFO 5380 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-05 09:24:33.844  INFO 5380 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-05 09:24:34.534  INFO 5380 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-05 09:24:34.551  INFO 5380 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-05-05 09:24:35.077  INFO 5380 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d31bb43a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-05 09:24:35.520  INFO 5380 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-05 09:24:35.553  INFO 5380 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-05 09:24:35.554  INFO 5380 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-05 09:24:35.733  INFO 5380 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-05 09:24:35.734  INFO 5380 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1890 ms
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+2019-05-05 09:24:35.967  INFO 5380 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-05 09:24:35.970  WARN 5380 --- [  restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-05-05 09:24:36.265  INFO 5380 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-05 09:24:36.360  INFO 5380 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-05 09:24:37.177  INFO 5380 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-05 09:24:37.191  INFO 5380 --- [  restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-05 09:24:37.364  INFO 5380 --- [  restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-05 09:24:37.606  INFO 5380 --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-05 09:24:39.805  INFO 5380 --- [  restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@27ff598f'
+2019-05-05 09:24:39.807  INFO 5380 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-05 09:24:39.840  WARN 5380 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-05-05 09:24:39.855  WARN 5380 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.appsdeveloperblog.app.ws.repository.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-05-05 09:24:39.855  INFO 5380 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-05 09:24:39.860  INFO 5380 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-05 09:24:39.867  INFO 5380 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-05 09:24:39.869  INFO 5380 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-05 09:24:39.881  INFO 5380 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-05 09:24:40.069 ERROR 5380 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.appsdeveloperblog.app.ws.service.Impl.UserServiceImpl required a bean of type 'com.appsdeveloperblog.app.ws.repository.UserRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.appsdeveloperblog.app.ws.repository.UserRepository' in your configuration.
+
